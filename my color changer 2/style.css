@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    gap: 20%;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 20px;
+    background-color: beige;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: azure;
+    box-shadow: 1px 1px 7px grey;
+}
+
+
+/*  */
